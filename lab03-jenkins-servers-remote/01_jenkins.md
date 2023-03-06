@@ -12,7 +12,7 @@
     ssh-keygen -f ./centos8/remote-key -t rsa -b 4096 -m PEM
     ```
 
-1. Generar imagen
+1. Generar imagen (no corre el comando, desactualizado!!!)
     ```bash
     docker-compose  -f docker-compose-v2.yaml build
     ```
